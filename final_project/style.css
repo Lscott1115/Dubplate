@@ -1,0 +1,629 @@
+body    {
+        background-image: linear-gradient(to bottom right, #202020, 60%, #000000);
+        color: #ffffff;
+}
+
+
+header  {
+        background-color: #FFBD59;
+        color: #000000;
+        text-align: center;
+        font-family: tahoma;
+        border-top-left-radius:  12px;
+        border-top-right-radius: 12px;
+}  
+
+
+#logo   {
+        max-width: 100%;
+        height: auto;
+}
+
+
+.logo   {
+        margin-left: 5%;
+        text-align: center;
+        display: inline-flex;
+        }
+
+
+h1      {
+        font-family: "Pathway Gothic One";
+        font-size: 35px;
+}
+
+
+h2      {
+        font-family: "Pathway Gothic One"; font-size: 30px;
+        padding-bottom: 2px;
+        border-bottom-style: solid;
+        border-bottom-width: 3.1px;
+        width: fit-content;
+        color: #e4e4e4;
+}
+
+
+h3      {
+        color: #ffbd59;
+        font-family: "Open Sans";
+}
+
+
+h4      {
+        color: #ffbd59dd;
+        font-family: "Open Sans";
+}
+
+
+h5      {
+        color: #000000;
+        font-family: "roboto";
+        font-size: 16px;
+        width: fit-content;
+        margin-bottom: 0;
+        background-color: #ffbd59;
+        padding: 4px 4px 4px 4px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+}
+
+
+nav     {
+        background-color: #ffbd59 !important;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        text-align: center;
+        font-family: "Pathway Gothic One"; font-size: 25px;
+        letter-spacing: 0px;
+        padding-bottom: 2px;
+        height: auto;
+        position:-webkit-sticky;
+        position: sticky;
+        top: 0%;
+        z-index: 10;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+}
+
+
+
+a:link {color: #000000;text-decoration: none;}
+a:visited {color: #555555;}
+a:hover {color:#ffffff;}
+
+
+.toplink:link {color: #ffffff;} 
+.toplink:hover {color: #ffbd59;}
+.toplink:visited {color: #ffffff;}
+.toplink:hover:visited {color: #ffbd59}
+
+
+.toplink {
+        cursor: pointer;
+}
+
+
+.articles {
+        border: solid 1px #ffbd59;
+        border-radius: 12px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 35%;
+        padding-bottom: 0;
+}
+
+
+*       {
+        box-sizing: border-box;
+}
+
+
+.left   {
+        background-color: #ffbd5928;
+        padding: 20px;
+        float: left;
+        width: 24.75%;
+        padding-bottom: 500em;
+        margin-bottom: -500em;
+        margin-right: 0.25%;
+        border-radius: 12px;
+}  
+
+
+.main   {
+        background-color: #003b5241;
+        padding: 20px;
+        float: left;
+        width: 50%;
+        padding-bottom: 500em;
+        margin-bottom: -500em;
+        border-radius: 12px;
+}
+
+
+.linespace {
+        line-height: 2rem;
+        font-family: "open sans";
+        font-size: 15px;
+}
+
+
+.right  {
+        background-color: #ffbd5928;
+        padding: 20px;
+        float: left;
+        width: 24.75%;
+        padding-bottom: 500em;
+        margin-bottom: -500em;
+        margin-left: 0.25%;
+        border-radius: 12px;
+}
+
+
+.row    {
+        contain: content;
+        overflow: hidden;
+        width: 100%;
+        margin: 5px auto;
+}
+
+
+#picture{
+        width: 100%;
+        height: auto;
+}
+
+
+#blink  {
+        float: right;
+        padding: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-bottom: 0;
+        border: solid 0.5px #ffffff;
+}
+
+
+#gorillaz {
+        float: left;
+        padding: 0;
+        margin-top: 1.5em;
+        margin-right: 1em;
+        margin-bottom: 0;
+        border: solid 0.5px #ffffff;
+}
+
+
+#postalservice {
+        float: left;
+        padding: 1px;
+        margin-left: 0;
+        margin-right: 18px;
+        margin-top: 0.8em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#panthers {
+        float: right;
+        padding: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#hangout {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+}
+
+
+.twitter-tweet {
+        float:left;
+        padding: 0;
+        margin-right:20px;
+}
+
+
+#badbunny {
+        float: left;
+        padding: 1px;
+        margin-left: 0;
+        margin-right: 12px;
+        margin-top: 1.5em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#coachella {
+        float: right;
+        padding: 1px;
+        margin-right: 0;
+        margin-left: 16px;
+        margin-top: 1.5em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#deathgrips {
+        float: right;
+        padding: 1px;
+        margin-right: 0;
+        margin-left: 16px;
+        margin-top: 1.5em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#wutang {
+        float: right;
+        padding: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-bottom: 0;
+        border: solid 0.5px #ffffff;
+}
+
+
+#beastie{
+        width: 100%;
+        height: auto;
+        border: solid 0.5px #ffffff;
+}
+
+
+#macdre {
+        width: 100%;
+        height: auto;
+        border: solid 0.5px #ffffff;
+}
+
+
+#edc    {
+        float: right;
+        padding: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-bottom: 0;
+        border: solid 0.5px #ffffff;
+}
+
+
+#aoki   {
+        float: left;
+        padding: 1px;
+        margin-left: 0;
+        margin-right: 12px;
+        margin-top: 1.5em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#garrix {
+        float: right;
+        padding: 0;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-bottom: 0;
+        border: solid 0.5px #ffffff;
+}
+
+
+#prydz  {
+        float: left;
+        padding: 1px;
+        margin-left: 0;
+        margin-right: 12px;
+        margin-top: 1.5em;
+        border: solid 0.5px #ffffff;
+}
+
+
+#top10  {
+        font-family: 'Pathway Gothic One', sans-serif; font-size: 18px;
+        border: 2px solid #faae3bcc;
+        border-radius: 12px;
+        padding: 6px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+}
+
+
+.formborder {
+        border: 1px solid #ffbd59;
+        border-radius: 12px;
+}
+
+
+td      {
+        background-color: #80603058;
+        border: .5px solid #ffbd59ac;
+        padding: 8px;
+}
+
+
+
+/* Top 10 Dropdown menus*/
+.drop   {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        cursor: pointer;
+}
+      
+.dropdown {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+      
+.dropdown-content {
+        display: none;
+        position: absolute;
+        border-radius: 10px;
+        border: 1px solid #ffbd59;
+        left: 100%;
+        top: 0%;
+        margin-left: 0%;
+        background-color: #003b52;
+        min-width: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+}
+      
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: inline-block;
+}
+      
+.dropdown-content a:hover {
+        background-color: rgb(69, 69, 69);
+        border-radius: 10px;
+}
+      
+.dropdown:hover .dropdown-content {
+        display: inline-block;
+}
+      
+.dropdown:hover {
+        color: #ffbd59;
+}
+/* END - Top 10 Dropdown menus*/
+
+
+/* Music Links Carousel*/
+.slideshow-container {
+        max-width: 1000px;
+        position:relative;
+        margin: auto;
+}
+
+.mySlides {
+        display: none;
+}
+      
+.prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(255, 255, 255, 0.08);
+}
+      
+.next   {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        background-color: rgba(255, 255, 255, 0.08);
+}
+      
+.prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+}
+      
+.numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+}
+      
+.dot    {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #ffbd59;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.4s ease;
+}
+      
+.active, .dot:hover {
+        background-color: #004a6a;
+}
+      
+.fade   {
+        animation-name: fade;
+        animation-duration: 1.2s;
+}
+      
+@keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+}
+/* END Music Links Carousel*/
+
+
+/* Collapsibles*/   
+.collapsible {
+        background-color: #004f71;
+        color: #ffbd59;
+        cursor: pointer;
+        padding: 12px;
+        padding-left: 18px;
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 0 0 6px #000000;
+        border: 2px solid #d3d3d3;
+        border-radius: 12px;
+}
+
+.active, .collapsible:hover {
+        background-color: #434343de;
+}
+
+.content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #1c1c1cdd;
+}
+
+.collapsible:after {
+        content: '\002B';
+        font-size: 25px;
+        color: #ffffff;
+        float: right;
+}
+      
+.active:after {
+        content: "\2212";
+}
+/* END Collapsibles*/
+
+
+/* Header Dropdown menu*/
+.dropbtn {
+        background-color: #004a6a;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        font-family: "Pathway Gothic One";
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+}
+      
+.dropdown1 {
+        position: relative;
+        margin: 10px;
+}
+      
+.dropdown-content1 {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+}
+      
+.dropdown-content1 a {
+        font-family: "Pathway Gothic One";
+        font-size: 18px;
+        color: #000000;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+      
+.dropdown-content1 a:hover {background-color: #f1f1f1;}
+.dropdown1:hover .dropdown-content1 {display: block;}
+.dropdown1:hover .dropbtn {background-color: #004a6ac8;}
+/*END - Header Dropdown menu*/
+
+
+footer  {
+        background-color: #004a6a95;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Pathway Gothic One";
+        font-size: 18px;
+        clear: both;
+        padding: 5px;
+        border-style: outset;
+        border-color: #ffbd59;
+}
+
+/* Poll*/
+.formborder {
+        border: 1px solid #ffbd59;
+        margin-bottom: 10px;
+}
+
+fieldset{
+        border: none;
+        padding: 5px;
+        border-bottom: 2px;
+}
+                              
+fieldset:last-of-type {
+        border-bottom: none;
+}
+                      
+label   {
+        display: block;
+        margin: 0.5rem 0;
+        font-family: "Pathway Gothic One";
+        font-size: 18px;
+}
+
+input, textarea, select {
+        margin: 10px 0 0 0;
+        width: 100%;
+        min-height: 2em;
+}
+                      
+input, textarea {
+        background-color: #0a0a23;
+        border: 1px solid #0a0a23;
+        color: #000000;
+}
+                      
+.inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+}
+                      
+input[type="submit"] {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 2em;
+        font-size: 1.1rem;
+        background-color: #FFBD59;
+        border-color: #000000;
+        border-radius: 12px;
+        min-width: 150px;
+}
+/*END Poll*/
+
+
+@media screen and (max-width: 800px) {
+ .left, .main, .right {
+    width: 100%;
+  }
+}

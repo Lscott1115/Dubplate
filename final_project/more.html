@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dubplate - More</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pathway+Gothic+One&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        background-color: #ffbd59;
+        width: 100%;
+        margin: 5px auto;
+        display:-webkit-flex;
+        padding: 3px;
+      }
+
+      .box {
+        background-color: #3E3424;
+        height: 425px;
+        padding: 25px;
+        border: #ffbd59 solid 3px;
+        flex: 1;
+        transition: 1.5s;
+        overflow-y: auto;
+      }
+
+      .box:hover {
+        flex: 3;
+        background-color: #0F1E24;
+      }
+
+      .box:hover .hide {
+        display: block;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .description {
+        font-family: "Pathway Gothic One";
+        font-size: 18px;
+        text-align: left;
+      }
+
+      #about {
+        background-image: url('images/headphone2.png');
+        background-size: cover;
+      }
+
+      #about:hover {
+        background-image:none;
+        background-size: cover;
+      }
+
+      #contact {
+        background-image: url('images/headphone3.png');
+        background-size: cover;
+      }
+
+      #contact:hover {
+        background-image: none;
+      }
+
+      #feedback {
+        background-image: url('images/headphone1.png');
+        background-size: cover;
+      }
+
+      #feedback:hover {
+        background-image: none;
+      }
+
+      h2, p {
+        margin: 1em auto;
+        text-align: center;
+      }
+
+      form {
+        width: 60vw;
+        max-width: 500px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 2em;
+        display: block;
+      }
+
+      fieldset {
+        border: none;
+        padding: 2rem 0;
+        border-bottom: 3px solid #3b3b4f;
+      }
+
+      fieldset:last-of-type {
+        border-bottom: none;
+      }
+
+      label {
+        display: block;
+        margin: 0.5rem 0;
+      }
+
+      input,
+      textarea,
+      select {
+        margin: 10px 0 0 0;
+        width: 100%;
+        min-height: 2em;
+      }
+
+      input, textarea {
+        background-color: #0a0a23;
+        border: 1px solid #0a0a23;
+        color: #ffffff;
+      }
+
+      .inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+      }
+
+      input[type="submit"] {
+        display: block;
+        width: 60%;
+        margin: 1em auto;
+        height: 2em;
+        font-size: 1.1rem;
+        background-color: #3b3b4f;
+        border-color: white;
+        min-width: 300px;
+      }
+      
+    </style>
+
+    <body>
+        <header>
+            <div class="dropdown1" style="float:right;">
+                <button class="dropbtn">More</button>
+                <div class="dropdown-content1">
+                  <a href="more.html">About</a>
+                  <a href="more.html">Contact</a>
+                  <a href="more.html">Feedback</a>
+                 </div>
+                </div>
+            <div class="logo">
+                <a href="index.html"><img id="logo" src="images/logo.svg" alt="logo" width="200px" height="200px"></a>
+            </div>
+        </header>
+          
+          <nav>
+              <a href="index.html">Home</a>  |  <a href="indie_rock.html">Indie / Rock</a>  |  <a href="hiphop.html">Hip Hop</a>  |  <a href="edm.html">EDM</a>  |  <a href="featured_artist.html">Featured Artist</a>  |  <a href="album_review.html">Weekly Album Review</a>
+          </nav>
+
+        <main>
+            <div class="container">
+                <div class="box" id="about">
+                  <h1>About</h1>
+                  <div class="hide">
+                    <p class="description">Dubplate was created in 2022 with the intent to share a love and passion for music. With the amount of content available in the 21st centery, it can be difficult for a new artist to get their music out. Our goal is to help spread the word and bring that music to new ears. We feature artists both new and established, in hopes that you may find your favorite new artist. We love to see musicians grow and achieve greatness.</p>
+
+                    <p class="description">We thank you for supporting our platform!</p>
+                      
+                    <p class="description">We are Dubplate.</p>
+                  </div>
+                </div>
+                <div class="box" id="contact">
+                  <h1>Contact</h1>
+                  <div class="hide">
+                    <p class="description"><a href="mailto:Dubplateblog@Gmail.com" style="color:#ffbd59">Dubplateblog@Gmail.com</a></p>
+                    <p class="description">Los Angeles, CA</p>
+                  </div>
+                </div>
+                <div class="box" id="feedback">
+                  <h1>Feedback</h1>
+                  <div class="hide">
+                  <h2 id="title">Dubplate Survey</h2>
+                    <p id="description">Thank you for taking the time to help us improve the platform.</p>
+                    <form id="survey-form" method="get">
+                      <fieldset>
+                      <label id="name-label">Name<input id="name" type="text" placeholder="Enter Your Name" required ></label>
+                      <label id="email-label">Email<input id="email" type="email" placeholder="Enter Your Email" required /></label>
+                      <label id="phone-label">Phone Number<input id="phone" type="phone" placeholder="Enter Your Phone #" required /></label>
+                      <label id="number-label">Age (optional)<input id="number" type="number" min="13" max="120" placeholder="Age" Optional /></label>
+                      </fieldset>
+                      <fieldset>
+                      <label>What's your favorite genre of music?
+                      <select id="survdrop">
+                        <option>Select an option</option>
+                        <option>Rock</option>
+                        <option>Hip Hop</option>
+                        <option>Electronic Dance Music</option>
+                        <option>Pop</option>
+                        <option>Country</option>
+                        <option>Latin</option>
+                        <option>Other</option>
+                      </select>
+                      </label>
+                    </fieldset>
+                    <fieldset>
+                      <label>Would you recommend Dubplate to a friend?</label>
+                      <label><input class="inline" type="radio" value="Definitely" name="recommend">Definitely</label>
+                      <label><input class="inline" type="radio" value="Maybe" name="recommend">Maybe</label>
+                      <label><input class="inline" type="radio" value="Not Sure" name="recommend">Not Sure</label>
+                    </fieldset>
+                    <fieldset>
+                    <label>What is your favorite feature of Dubplate?</label>
+                      <select id="survdrop">
+                        <option>Select an option</option>
+                        <option>Music News</option>
+                        <option>Top 10</option>
+                        <option>Album Review</option>
+                        <option>Featured Artist</option>
+                        <option>Music Player</option>
+                      </select>
+                    </fieldset>
+                    <fieldset>
+                      <label>What would you like to see improved? (check all that apply)</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Music Genres</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Content</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Membership</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Community</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Web Design</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Graphics</label>
+                      <label><input class="inline" type="checkbox" value="Not Sure">Navigation</label>
+                    </fieldset>
+                    <fieldset>
+                      <label>Any comments or suggestions?</label>
+                        <textarea id="suggestions" name="suggestions" rows="4" cols="50" placeholder="Write comments here..."></textarea>
+                    </fieldset>
+                    <input id="submit" name="submit" value="submit" type="submit">
+                    </form>
+                    </div>
+                </div>
+            </div>
+    
+        </main>
+
+        <footer>
+            &copy; <a style="color: white" href="mailto:Dubplateblog@Gmail.com">2022 Logan Scott Dubplateblog@Gmail.com</a>
+        </footer>
+    </body>
+</html>
